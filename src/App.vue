@@ -2,7 +2,7 @@
   <div id="app">
     <!-- Header starts here -->
     <header class="header">
-      <div class="nav">
+      <div class="nav ">
         <a href="#"><img src="/images/logo.svg" ></a>
         <ul class="top">
           <li>
@@ -42,7 +42,7 @@
             </div>
           </li>
         </ul>
-        <ul class="register">
+        <ul class="registeration">
           <li><a href="#" class="login">Login</a></li>
           <li><a href="#" class="signup">Sign Up</a></li>
         </ul>
@@ -111,7 +111,7 @@
 
     <!-- Blogr description -->
     <section class="description">
-      <h2>Designed for the future</h2>
+      <h2 class="move">Designed for the future</h2>
       <div class="description-content">
         <div class="description-content-leftcolumn">
           <h3>Introducing an extensible editor</h3>
@@ -172,10 +172,10 @@
 
     <!-- Footer -->
     <footer>
-      <div class="footer-box">
+      <div class="down">
         <a href="#"><img src="/images/logo.svg" alt="Blogr logo"></a>
       </div>
-      <div class="footer-box">
+      <div class="down">
         <h6>Product</h6>
         <ul>
           <li><a href="#">Overview</a></li>
@@ -185,7 +185,7 @@
           <li><a href="#">Integrations</a></li>
         </ul>
       </div>
-      <div class="footer-box">
+      <div class="down">
         <h6>Company</h6>
         <ul>
           <li><a href="#">About</a></li>
@@ -194,7 +194,7 @@
           <li><a href="#">Careers</a></li>
         </ul>
       </div>
-      <div class="footer-box">
+      <div class="down">
         <h6>Connect</h6>
         <ul>
           <li><a href="#">Contact</a></li>
@@ -246,7 +246,7 @@ export default {
         display: none;
     }
 
-    .header .nav .register{
+    .header .nav .registeration{
         display: none;
     }
 
@@ -388,7 +388,7 @@ export default {
         flex-wrap: wrap;
     }
 
-    footer .footer-box{
+    footer .down{
         flex-basis: 100%;
         text-align: center;
         margin-bottom: 3rem;
